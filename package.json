@@ -1,22 +1,24 @@
 {
-  "name": "react-fullstack",
+  "name": "site-fullstack",
   "version": "1.0.0",
-  "description": "",
+  "description": "créer et héberger un site fullstack",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --exec babel-node index.js"
+    "start": "nodemon --exec babel-node src/index.js"
   },
-  "keywords": [],
-  "author": "Olivier Perdrix",
+  "author": "sandy l",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2",
-    "nodemon": "^2.0.22"
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongodb": "^4.6.0",
+    "nodemon": "^2.0.16"
   },
   "devDependencies": {
-    "@babel/core": "^7.21.4",
-    "@babel/node": "^7.20.7",
-    "@babel/preset-env": "^7.21.4"
+    "@babel/core": "^7.18.0",
+    "@babel/node": "^7.17.10",
+    "@babel/preset-env": "^7.18.0"
   }
 }
